@@ -54,30 +54,6 @@ input.forEach((item) => {
 });
 
 
-
-// name1.addEventListener('change', () => {
-//     if (surname.value && name1.value && checkbox.checked) {
-//         submit.removeAttribute('disabled')
-//     } else {
-//         submit.disabled = true
-//     }
-// })
-// surname.addEventListener('change', () => {
-//     if (surname.value && name1.value && checkbox.checked) {
-//         submit.removeAttribute('disabled')
-//     }
-//     else {
-//         submit.disabled = true
-//     }
-// })
-// checkbox.addEventListener('change', () => {
-//     if (surname.value && name1.value && checkbox.checked) {
-//         submit.removeAttribute('disabled')
-//     } else {
-//         submit.disabled = true
-//     }
-// })
-
 function checkFormValidity() {
   if (surname.value && name1.value && checkbox.checked) {
     submit.removeAttribute("disabled");
