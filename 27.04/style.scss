@@ -1,0 +1,15 @@
+body {
+  height: 80vh;
+  form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px dashed red;
+    gap: 10px;
+    #check {
+      visibility: hidden;
+    }
+  }
+}
