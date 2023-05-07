@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <link rel="stylesheet" href="./style.css">
+  <body>
+    <div id="alertDiv">
+      <span id="spanCompanyName"></span> <br />
+      <span id="spanContactName"></span> <br />
+      <span id="spanContactTitle"></span> <br />
+      <span id="spanStreet"></span> <br />
+      <span id="spanCity"></span> <br />
+      <span id="spanRegion"></span> <br />
+      <span id="spanPostalCode"></span> <br />
+      <span id="spanCountry"></span> <br />
+      <span id="spanPhone"></span> <br />
+      <br />
+      <button id="delAlertBtn" class="btn btn-danger">Back</button>
+    </div>
+    <div class="container pt-3">
+      <button class="btn btn-primary newUserBtn">New User</button>
+    </div>
+    <section class="container sec1">
+      <form class="row g-3">
+        <div class="col-12 pt-3">
+          <h1>Form</h1>
+        </div>
+        <div class="col-md-4">
+          <label for="inputCompanyName" class="form-label">Company Name</label>
+          <input type="text" class="form-control" id="inputCompanyName" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputContactName" class="form-label">Contact Name</label>
+          <input type="text" class="form-control" id="inputContactName" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputContactTitle" class="form-label"
+            >Contact Title</label
+          >
+          <input type="text" class="form-control" id="inputContactTitle" />
+        </div>
+        <div class="col-12 pt-3">
+          <h4>Address</h4>
+        </div>
+        <div class="col-md-8">
+          <label for="inputStreet" class="form-label">Street</label>
+          <input type="text" class="form-control" id="inputStreet" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputRegion" class="form-label">Region</label>
+          <input type="text" class="form-control" id="inputRegion" />
+        </div>
+        <div class="col-md-2">
+          <label for="inputPostalCode" class="form-label">Postal Code</label>
+          <input type="number" class="form-control" id="inputPostalCode" />
+        </div>
+        <div class="col-md-3">
+          <label for="inputCountry" class="form-label">Country</label>
+          <input type="text" class="form-control" id="inputCountry" />
+        </div>
+        <div class="col-md-3">
+          <label for="inputPhone" class="form-label">Phone</label>
+          <input type="text" class="form-control" id="inputPhone" />
+        </div>
+        <div class="col-12">
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              id="gridCheck"
+              required
+            />
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary addBtn">Add</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="container">
+      <table class="w-100 my-4 text-center">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Company Name</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Phone</th>
+            <th></th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
