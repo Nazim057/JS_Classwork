@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "title": "444birinci123",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o1.png"
+    },
+    {
+      "id": 2,
+      "title": "2222347",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o1.png"
+    },
+    {
+      "id": 3,
+      "title": "555345",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o2.png"
+    },
+    {
+      "id": 4,
+      "title": "444456",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o3.png"
+    },
+    {
+      "title": "555567",
+      "description": "Animi soluta inventlkjhygtrrrrr ghjgvkj ghgjbjkuigtf kjkjkijjhhjjh",
+      "photo": "./assets/img/o2.png",
+      "id": 5
+    },
+    {
+      "title": "666678",
+      "description": "Quia illum ipsam ac",
+      "photo": "./assets/img/o1.png",
+      "id": 6
+    },
+    {
+      "title": "333sonuncu789",
+      "description": "Quia illum ipsam ac",
+      "photo": "./assets/img/o1.png",
+      "id": 7
+    }
+  ],
+  "favdata": [
+    {
+      "id": 2,
+      "title": "Nazim2",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o1.png"
+    },
+    {
+      "id": 3,
+      "title": "Nazim3",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore",
+      "photo": "./assets/img/o2.png"
+    },
+    {
+      "title": "Nazim555",
+      "description": "Animi soluta inventlkjhygtrrrrr ghjgvkj ghgjbjkuigtf kjkjkijjhhjjh",
+      "photo": "./assets/img/o2.png",
+      "id": 5
+    }
+  ]
+}
